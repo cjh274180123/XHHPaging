@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040E74681E4D608F006BECAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E74671E4D608F006BECAF /* main.m */; };
+		040E746B1E4D608F006BECAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E746A1E4D608F006BECAF /* AppDelegate.m */; };
+		040E746E1E4D608F006BECAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E746D1E4D608F006BECAF /* ViewController.m */; };
+		040E74711E4D608F006BECAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E746F1E4D608F006BECAF /* Main.storyboard */; };
+		040E74731E4D608F006BECAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E74721E4D608F006BECAF /* Assets.xcassets */; };
+		040E74761E4D608F006BECAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E74741E4D608F006BECAF /* LaunchScreen.storyboard */; };
+		040E74811E4D608F006BECAF /* XHHPagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E74801E4D608F006BECAF /* XHHPagingTests.m */; };
+		040E748C1E4D608F006BECAF /* XHHPagingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E748B1E4D608F006BECAF /* XHHPagingUITests.m */; };
+		040E74AC1E4D6119006BECAF /* b21c8701a18b87d63980698b070828381e30fd60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 040E749A1E4D6119006BECAF /* b21c8701a18b87d63980698b070828381e30fd60.jpg */; };
+		040E74AD1E4D6119006BECAF /* d788d43f8794a4c288160e8d0ef41bd5ad6e395b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 040E749B1E4D6119006BECAF /* d788d43f8794a4c288160e8d0ef41bd5ad6e395b.jpg */; };
+		040E74AE1E4D6119006BECAF /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 040E749C1E4D6119006BECAF /* MJRefresh.bundle */; };
+		040E74AF1E4D6119006BECAF /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E749F1E4D6119006BECAF /* MJRefreshBaseView.m */; };
+		040E74B01E4D6119006BECAF /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E74A11E4D6119006BECAF /* MJRefreshConst.m */; };
+		040E74B11E4D6119006BECAF /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E74A31E4D6119006BECAF /* MJRefreshFooterView.m */; };
+		040E74B21E4D6119006BECAF /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E74A51E4D6119006BECAF /* MJRefreshHeaderView.m */; };
+		040E74B31E4D6119006BECAF /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E74A71E4D6119006BECAF /* UIScrollView+MJExtension.m */; };
+		040E74B41E4D6119006BECAF /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E74A91E4D6119006BECAF /* UIScrollView+MJRefresh.m */; };
+		040E74B51E4D6119006BECAF /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E74AB1E4D6119006BECAF /* UIView+MJExtension.m */; };
+		42C826A8DA25E24F0D3E9FDC /* libPods-XHHPagingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 632C58B243D695C075EF2F8F /* libPods-XHHPagingUITests.a */; };
+		E3EF8DB76713A82829934D6B /* libPods-XHHPaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5F00AAD5FA9DBB77F6F4E3 /* libPods-XHHPaging.a */; };
+		EF321089B00A74CBB16DC5B9 /* libPods-XHHPagingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7273F25B651D0CFBFBC36682 /* libPods-XHHPagingTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040E747D1E4D608F006BECAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040E745B1E4D608F006BECAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040E74621E4D608F006BECAF;
+			remoteInfo = XHHPaging;
+		};
+		040E74881E4D608F006BECAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040E745B1E4D608F006BECAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040E74621E4D608F006BECAF;
+			remoteInfo = XHHPaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040E74631E4D608F006BECAF /* XHHPaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHHPaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040E74671E4D608F006BECAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040E74691E4D608F006BECAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040E746A1E4D608F006BECAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040E746C1E4D608F006BECAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040E746D1E4D608F006BECAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040E74701E4D608F006BECAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040E74721E4D608F006BECAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040E74751E4D608F006BECAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040E74771E4D608F006BECAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E747C1E4D608F006BECAF /* XHHPagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHHPagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040E74801E4D608F006BECAF /* XHHPagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHHPagingTests.m; sourceTree = "<group>"; };
+		040E74821E4D608F006BECAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E74871E4D608F006BECAF /* XHHPagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHHPagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040E748B1E4D608F006BECAF /* XHHPagingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHHPagingUITests.m; sourceTree = "<group>"; };
+		040E748D1E4D608F006BECAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E749A1E4D6119006BECAF /* b21c8701a18b87d63980698b070828381e30fd60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b21c8701a18b87d63980698b070828381e30fd60.jpg; sourceTree = "<group>"; };
+		040E749B1E4D6119006BECAF /* d788d43f8794a4c288160e8d0ef41bd5ad6e395b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d788d43f8794a4c288160e8d0ef41bd5ad6e395b.jpg; sourceTree = "<group>"; };
+		040E749C1E4D6119006BECAF /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		040E749D1E4D6119006BECAF /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		040E749E1E4D6119006BECAF /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		040E749F1E4D6119006BECAF /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		040E74A01E4D6119006BECAF /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		040E74A11E4D6119006BECAF /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		040E74A21E4D6119006BECAF /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		040E74A31E4D6119006BECAF /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		040E74A41E4D6119006BECAF /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		040E74A51E4D6119006BECAF /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		040E74A61E4D6119006BECAF /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		040E74A71E4D6119006BECAF /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		040E74A81E4D6119006BECAF /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		040E74A91E4D6119006BECAF /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		040E74AA1E4D6119006BECAF /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		040E74AB1E4D6119006BECAF /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		040E74B61E4D6517006BECAF /* MyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDefine.h; sourceTree = "<group>"; };
+		2C5F00AAD5FA9DBB77F6F4E3 /* libPods-XHHPaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHHPaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		423E36F93C8CAFCAF5FE52D7 /* Pods-XHHPagingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHPagingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHHPagingTests/Pods-XHHPagingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EFFE86C4425BCF9D6B6B61C /* Pods-XHHPaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHPaging.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHHPaging/Pods-XHHPaging.release.xcconfig"; sourceTree = "<group>"; };
+		632C58B243D695C075EF2F8F /* libPods-XHHPagingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHHPagingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7273F25B651D0CFBFBC36682 /* libPods-XHHPagingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHHPagingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F0C566C219CCA02E59CFED /* Pods-XHHPagingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHPagingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHHPagingUITests/Pods-XHHPagingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7AEA9A2692051E6D4B9C0889 /* Pods-XHHPagingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHPagingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHHPagingTests/Pods-XHHPagingTests.release.xcconfig"; sourceTree = "<group>"; };
+		98C23628B754DA10D54CF0BC /* Pods-XHHPaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHPaging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHHPaging/Pods-XHHPaging.debug.xcconfig"; sourceTree = "<group>"; };
+		C75E5185BB62B75665E0F100 /* Pods-XHHPagingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHPagingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHHPagingUITests/Pods-XHHPagingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040E74601E4D608F006BECAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EF8DB76713A82829934D6B /* libPods-XHHPaging.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E74791E4D608F006BECAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF321089B00A74CBB16DC5B9 /* libPods-XHHPagingTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E74841E4D608F006BECAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C826A8DA25E24F0D3E9FDC /* libPods-XHHPagingUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040E745A1E4D608F006BECAF = {
+			isa = PBXGroup;
+			children = (
+				040E74651E4D608F006BECAF /* XHHPaging */,
+				040E747F1E4D608F006BECAF /* XHHPagingTests */,
+				040E748A1E4D608F006BECAF /* XHHPagingUITests */,
+				040E74641E4D608F006BECAF /* Products */,
+				25F45F291598D58B6AE13FC2 /* Pods */,
+				2C83D28156F20396A4FB3B8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040E74641E4D608F006BECAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040E74631E4D608F006BECAF /* XHHPaging.app */,
+				040E747C1E4D608F006BECAF /* XHHPagingTests.xctest */,
+				040E74871E4D608F006BECAF /* XHHPagingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040E74651E4D608F006BECAF /* XHHPaging */ = {
+			isa = PBXGroup;
+			children = (
+				040E74991E4D6119006BECAF /* MJRefresh */,
+				040E74691E4D608F006BECAF /* AppDelegate.h */,
+				040E746A1E4D608F006BECAF /* AppDelegate.m */,
+				040E746C1E4D608F006BECAF /* ViewController.h */,
+				040E746D1E4D608F006BECAF /* ViewController.m */,
+				040E746F1E4D608F006BECAF /* Main.storyboard */,
+				040E74721E4D608F006BECAF /* Assets.xcassets */,
+				040E74741E4D608F006BECAF /* LaunchScreen.storyboard */,
+				040E74771E4D608F006BECAF /* Info.plist */,
+				040E74661E4D608F006BECAF /* Supporting Files */,
+			);
+			path = XHHPaging;
+			sourceTree = "<group>";
+		};
+		040E74661E4D608F006BECAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040E74671E4D608F006BECAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040E747F1E4D608F006BECAF /* XHHPagingTests */ = {
+			isa = PBXGroup;
+			children = (
+				040E74801E4D608F006BECAF /* XHHPagingTests.m */,
+				040E74821E4D608F006BECAF /* Info.plist */,
+			);
+			path = XHHPagingTests;
+			sourceTree = "<group>";
+		};
+		040E748A1E4D608F006BECAF /* XHHPagingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040E748B1E4D608F006BECAF /* XHHPagingUITests.m */,
+				040E748D1E4D608F006BECAF /* Info.plist */,
+			);
+			path = XHHPagingUITests;
+			sourceTree = "<group>";
+		};
+		040E74991E4D6119006BECAF /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				040E74B61E4D6517006BECAF /* MyDefine.h */,
+				040E749A1E4D6119006BECAF /* b21c8701a18b87d63980698b070828381e30fd60.jpg */,
+				040E749B1E4D6119006BECAF /* d788d43f8794a4c288160e8d0ef41bd5ad6e395b.jpg */,
+				040E749C1E4D6119006BECAF /* MJRefresh.bundle */,
+				040E749D1E4D6119006BECAF /* MJRefresh.h */,
+				040E749E1E4D6119006BECAF /* MJRefreshBaseView.h */,
+				040E749F1E4D6119006BECAF /* MJRefreshBaseView.m */,
+				040E74A01E4D6119006BECAF /* MJRefreshConst.h */,
+				040E74A11E4D6119006BECAF /* MJRefreshConst.m */,
+				040E74A21E4D6119006BECAF /* MJRefreshFooterView.h */,
+				040E74A31E4D6119006BECAF /* MJRefreshFooterView.m */,
+				040E74A41E4D6119006BECAF /* MJRefreshHeaderView.h */,
+				040E74A51E4D6119006BECAF /* MJRefreshHeaderView.m */,
+				040E74A61E4D6119006BECAF /* UIScrollView+MJExtension.h */,
+				040E74A71E4D6119006BECAF /* UIScrollView+MJExtension.m */,
+				040E74A81E4D6119006BECAF /* UIScrollView+MJRefresh.h */,
+				040E74A91E4D6119006BECAF /* UIScrollView+MJRefresh.m */,
+				040E74AA1E4D6119006BECAF /* UIView+MJExtension.h */,
+				040E74AB1E4D6119006BECAF /* UIView+MJExtension.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		25F45F291598D58B6AE13FC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98C23628B754DA10D54CF0BC /* Pods-XHHPaging.debug.xcconfig */,
+				4EFFE86C4425BCF9D6B6B61C /* Pods-XHHPaging.release.xcconfig */,
+				423E36F93C8CAFCAF5FE52D7 /* Pods-XHHPagingTests.debug.xcconfig */,
+				7AEA9A2692051E6D4B9C0889 /* Pods-XHHPagingTests.release.xcconfig */,
+				C75E5185BB62B75665E0F100 /* Pods-XHHPagingUITests.debug.xcconfig */,
+				79F0C566C219CCA02E59CFED /* Pods-XHHPagingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C83D28156F20396A4FB3B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F00AAD5FA9DBB77F6F4E3 /* libPods-XHHPaging.a */,
+				7273F25B651D0CFBFBC36682 /* libPods-XHHPagingTests.a */,
+				632C58B243D695C075EF2F8F /* libPods-XHHPagingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040E74621E4D608F006BECAF /* XHHPaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040E74901E4D608F006BECAF /* Build configuration list for PBXNativeTarget "XHHPaging" */;
+			buildPhases = (
+				F2E3FE82350F9F643794AB05 /* [CP] Check Pods Manifest.lock */,
+				040E745F1E4D608F006BECAF /* Sources */,
+				040E74601E4D608F006BECAF /* Frameworks */,
+				040E74611E4D608F006BECAF /* Resources */,
+				58B61F79A02EB992284C858A /* [CP] Embed Pods Frameworks */,
+				04BD54EB9B15C61E1240D9A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHHPaging;
+			productName = XHHPaging;
+			productReference = 040E74631E4D608F006BECAF /* XHHPaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040E747B1E4D608F006BECAF /* XHHPagingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040E74931E4D608F006BECAF /* Build configuration list for PBXNativeTarget "XHHPagingTests" */;
+			buildPhases = (
+				B05DD199E20861D4D6B879E2 /* [CP] Check Pods Manifest.lock */,
+				040E74781E4D608F006BECAF /* Sources */,
+				040E74791E4D608F006BECAF /* Frameworks */,
+				040E747A1E4D608F006BECAF /* Resources */,
+				0C7AD8A1329DF320C133C8F3 /* [CP] Embed Pods Frameworks */,
+				7E28DD0984581AE6E95F9F4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040E747E1E4D608F006BECAF /* PBXTargetDependency */,
+			);
+			name = XHHPagingTests;
+			productName = XHHPagingTests;
+			productReference = 040E747C1E4D608F006BECAF /* XHHPagingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040E74861E4D608F006BECAF /* XHHPagingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040E74961E4D608F006BECAF /* Build configuration list for PBXNativeTarget "XHHPagingUITests" */;
+			buildPhases = (
+				A09B334815A4B07DCE0A1B69 /* [CP] Check Pods Manifest.lock */,
+				040E74831E4D608F006BECAF /* Sources */,
+				040E74841E4D608F006BECAF /* Frameworks */,
+				040E74851E4D608F006BECAF /* Resources */,
+				733186B91015A48298FA121E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040E74891E4D608F006BECAF /* PBXTargetDependency */,
+			);
+			name = XHHPagingUITests;
+			productName = XHHPagingUITests;
+			productReference = 040E74871E4D608F006BECAF /* XHHPagingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040E745B1E4D608F006BECAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CJH;
+				TargetAttributes = {
+					040E74621E4D608F006BECAF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NX225VV6Y8;
+						ProvisioningStyle = Automatic;
+					};
+					040E747B1E4D608F006BECAF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NX225VV6Y8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040E74621E4D608F006BECAF;
+					};
+					040E74861E4D608F006BECAF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NX225VV6Y8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040E74621E4D608F006BECAF;
+					};
+				};
+			};
+			buildConfigurationList = 040E745E1E4D608F006BECAF /* Build configuration list for PBXProject "XHHPaging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040E745A1E4D608F006BECAF;
+			productRefGroup = 040E74641E4D608F006BECAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040E74621E4D608F006BECAF /* XHHPaging */,
+				040E747B1E4D608F006BECAF /* XHHPagingTests */,
+				040E74861E4D608F006BECAF /* XHHPagingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040E74611E4D608F006BECAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E74761E4D608F006BECAF /* LaunchScreen.storyboard in Resources */,
+				040E74731E4D608F006BECAF /* Assets.xcassets in Resources */,
+				040E74AE1E4D6119006BECAF /* MJRefresh.bundle in Resources */,
+				040E74AC1E4D6119006BECAF /* b21c8701a18b87d63980698b070828381e30fd60.jpg in Resources */,
+				040E74AD1E4D6119006BECAF /* d788d43f8794a4c288160e8d0ef41bd5ad6e395b.jpg in Resources */,
+				040E74711E4D608F006BECAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E747A1E4D608F006BECAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E74851E4D608F006BECAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04BD54EB9B15C61E1240D9A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHHPaging/Pods-XHHPaging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C7AD8A1329DF320C133C8F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHHPagingTests/Pods-XHHPagingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B61F79A02EB992284C858A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHHPaging/Pods-XHHPaging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		733186B91015A48298FA121E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHHPagingUITests/Pods-XHHPagingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E28DD0984581AE6E95F9F4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHHPagingTests/Pods-XHHPagingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A09B334815A4B07DCE0A1B69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B05DD199E20861D4D6B879E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E3FE82350F9F643794AB05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040E745F1E4D608F006BECAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E74B11E4D6119006BECAF /* MJRefreshFooterView.m in Sources */,
+				040E74B51E4D6119006BECAF /* UIView+MJExtension.m in Sources */,
+				040E746E1E4D608F006BECAF /* ViewController.m in Sources */,
+				040E74B21E4D6119006BECAF /* MJRefreshHeaderView.m in Sources */,
+				040E746B1E4D608F006BECAF /* AppDelegate.m in Sources */,
+				040E74B31E4D6119006BECAF /* UIScrollView+MJExtension.m in Sources */,
+				040E74B41E4D6119006BECAF /* UIScrollView+MJRefresh.m in Sources */,
+				040E74AF1E4D6119006BECAF /* MJRefreshBaseView.m in Sources */,
+				040E74681E4D608F006BECAF /* main.m in Sources */,
+				040E74B01E4D6119006BECAF /* MJRefreshConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E74781E4D608F006BECAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E74811E4D608F006BECAF /* XHHPagingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E74831E4D608F006BECAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E748C1E4D608F006BECAF /* XHHPagingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040E747E1E4D608F006BECAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040E74621E4D608F006BECAF /* XHHPaging */;
+			targetProxy = 040E747D1E4D608F006BECAF /* PBXContainerItemProxy */;
+		};
+		040E74891E4D608F006BECAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040E74621E4D608F006BECAF /* XHHPaging */;
+			targetProxy = 040E74881E4D608F006BECAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040E746F1E4D608F006BECAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E74701E4D608F006BECAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040E74741E4D608F006BECAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E74751E4D608F006BECAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040E748E1E4D608F006BECAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040E748F1E4D608F006BECAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040E74911E4D608F006BECAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C23628B754DA10D54CF0BC /* Pods-XHHPaging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NX225VV6Y8;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = XHHPaging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XHHPaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040E74921E4D608F006BECAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFFE86C4425BCF9D6B6B61C /* Pods-XHHPaging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NX225VV6Y8;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = XHHPaging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XHHPaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		040E74941E4D608F006BECAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423E36F93C8CAFCAF5FE52D7 /* Pods-XHHPagingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NX225VV6Y8;
+				INFOPLIST_FILE = XHHPagingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XHHPagingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHHPaging.app/XHHPaging";
+			};
+			name = Debug;
+		};
+		040E74951E4D608F006BECAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEA9A2692051E6D4B9C0889 /* Pods-XHHPagingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NX225VV6Y8;
+				INFOPLIST_FILE = XHHPagingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XHHPagingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHHPaging.app/XHHPaging";
+			};
+			name = Release;
+		};
+		040E74971E4D608F006BECAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75E5185BB62B75665E0F100 /* Pods-XHHPagingUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NX225VV6Y8;
+				INFOPLIST_FILE = XHHPagingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XHHPagingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XHHPaging;
+			};
+			name = Debug;
+		};
+		040E74981E4D608F006BECAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F0C566C219CCA02E59CFED /* Pods-XHHPagingUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NX225VV6Y8;
+				INFOPLIST_FILE = XHHPagingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XHHPagingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XHHPaging;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040E745E1E4D608F006BECAF /* Build configuration list for PBXProject "XHHPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E748E1E4D608F006BECAF /* Debug */,
+				040E748F1E4D608F006BECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040E74901E4D608F006BECAF /* Build configuration list for PBXNativeTarget "XHHPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E74911E4D608F006BECAF /* Debug */,
+				040E74921E4D608F006BECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040E74931E4D608F006BECAF /* Build configuration list for PBXNativeTarget "XHHPagingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E74941E4D608F006BECAF /* Debug */,
+				040E74951E4D608F006BECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040E74961E4D608F006BECAF /* Build configuration list for PBXNativeTarget "XHHPagingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E74971E4D608F006BECAF /* Debug */,
+				040E74981E4D608F006BECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040E745B1E4D608F006BECAF /* Project object */;
+}
